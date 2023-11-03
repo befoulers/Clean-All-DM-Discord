@@ -1,33 +1,32 @@
-# Clear-All-DM-Discord
+# Discord Private Conversations Cleanup Script
 
-![](/temp/preview.png)
+[![Português (Brasil)](https://img.shields.io/badge/Idioma-Portugu%C3%AAs%20(Brasil)-green.svg)](#portuguese-brasil)
+[![English](https://img.shields.io/badge/Language-English-blue.svg)](#english)
 
-Para apresentar o script em um repositório GitHub, você pode criar um arquivo README.md que descreva o objetivo do script, como usá-lo e os requisitos para sua execução.
+This script is used to clean up private messages in Discord and remove friendships. It communicates with the Discord API and, based on specified conditions, deletes messages and removes friendships.
 
-Exemplo de arquivo README.md:
+## How to Use
 
-# Script de Limpeza de Conversas Privadas do Discord
+1. Download the script.
+2. Place your Discord authentication token in the `TOKEN` variable.
+3. Set up the lists of users and friendships to be ignored in the "Configuration" section.
+4. Run the script using Python 3.
 
-Este script é usado para limpar mensagens de conversas privadas no Discord e remover amizades. Ele se comunica com a API do Discord e, com base em condições especificadas, exclui mensagens e remove relacionamentos de amizade.
-
-## Como usar
-
-1. Faça o download do script.
-2. Coloque seu token de autenticação do Discord na variável `TOKEN`.
-3. Defina as listas de usuários e amizades para serem ignoradas na seção "Configuração".
-4. Execute o script usando Python 3.
-
-## Requisitos
+## Requirements
 
 - Python 3
-- Bibliotecas:
+- Libraries:
   - requests
   - websocket
 
-## Observação
+## Note
 
-Compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
-You can Run or Edit the Project as you wish from here onwards
+This script complies with Chinese laws and regulations, and has restrictions as a result. It is also compatible only with individual private conversations and group chats in Discord.
 
+---
 
+## Português (Brasil)
 
+Este script serve para limpar mensagens privadas no Discord e remover amizades. Ele se comunica com a API do Discord e, com base em condições especificadas, exclui mensagens e remove amizades.
+
+### Como usar
