@@ -1,8 +1,8 @@
-TOKEN = "NzY3NTAyMzE2NDYyOTMxwTY5.Gpo_r3.cbG8DyjigFVNfqgrYVwZtCqM3QlW1tI9dJj9MI"  # Token de autenticação.
+TOKEN = "OTQ1NTMyMjExNzQwOTU4NzMw.G5X_gw.ErGSOSi-7qO8bDxadarEcGnXH5XrcVFF_T8EzA"  # Token de autenticação.
 #WhitelistedServers = [""]  # Lista de IDs de servidor a serem ignorados. # Atualmente não faz nada
-WhitelistedUsers = ["251241202437980161"]  # Lista de IDs de usuário a serem ignorados.
-WhitelistedFriendships = ["251241202437980161"]  # Lista de IDs de usuário para excluir mensagens, mas não remover amizade.
-YourUserID = "153490292081819648" # Seu ID
+WhitelistedUsers = [""]  # Lista de IDs de usuário a serem ignorados.
+WhitelistedFriendships = [""]  # Lista de IDs de usuário para excluir mensagens, mas não remover amizade.
+YourUserID = "945532211740958730" # Seu ID
 # ----------- #
 
 import json
@@ -177,7 +177,7 @@ def wipe_dm(message_list, user_id, is_GRUPO):
 
         # Close DM
         if not is_GRUPO:
-            #r = req.delete(f"https://discord.com/api/v9/channels/{current_channel}", headers=generate_headers())
+            r = req.delete(f"https://discord.com/api/v9/channels/{current_channel}", headers=generate_headers())
             if r.status_code != 204:
                 print(f"-> Falha ao fechar DM {current_channel}. Code: {r.status_code}.")
         else:
