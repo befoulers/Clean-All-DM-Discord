@@ -2,25 +2,31 @@
 
 ![](/temp/preview.png)
 
-## Installation and Setup
+Para apresentar o script em um repositório GitHub, você pode criar um arquivo README.md que descreva o objetivo do script, como usá-lo e os requisitos para sua execução.
 
-### Prerequisites
-- Python (https://www.python.org/downloads/)
-- Pip (Usually comes with an Official Installation of Python)
+Exemplo de arquivo README.md:
 
-1. Clone the Repository
-   - `git clone <Repo name>`
+# Script de Limpeza de Conversas Privadas do Discord
 
-2. Change into Project Directory
-   - `cd CLEAR-ALL-DM_DISCORD`
+Este script é usado para limpar mensagens de conversas privadas no Discord e remover amizades. Ele se comunica com a API do Discord e, com base em condições especificadas, exclui mensagens e remove relacionamentos de amizade.
 
-3. Setup Virtual Environment
-   - `pip install pipenv`
-   - `pipenv shell`
+## Como usar
 
-4. Install Dependencies
-   - `pipenv install -r requirements.txt`
+1. Faça o download do script.
+2. Coloque seu token de autenticação do Discord na variável `TOKEN`.
+3. Defina as listas de usuários e amizades para serem ignoradas na seção "Configuração".
+4. Execute o script usando Python 3.
 
+## Requisitos
+
+- Python 3
+- Bibliotecas:
+  - requests
+  - websocket
+
+## Observação
+
+Este script está em conformidade com as leis e regulamentações chinesas e possui restrições devido a isso. Ele também é compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
 You can Run or Edit the Project as you wish from here onwards
 
 
