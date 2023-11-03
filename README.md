@@ -1,5 +1,7 @@
 # Discord Private Conversations Cleanup Script
 
+![](/temp/preview.png)
+
 [Português (Brasil)](#português-brasil)
 
 This script is used to clean up private messages in Discord and remove friendships. It communicates with the Discord API and, based on specified conditions, deletes messages and removes friendships.
