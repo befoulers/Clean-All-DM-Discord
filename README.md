@@ -46,4 +46,4 @@ Este script serve para limpar mensagens privadas no Discord e remover amizades. 
 
 ## Observação
 
-Este script está em conformidade com as leis e regulamentações chinesas e possui restrições devido a isso. Ele também é compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
+Compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
