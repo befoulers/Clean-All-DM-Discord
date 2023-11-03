@@ -26,7 +26,7 @@ Este script é usado para limpar mensagens de conversas privadas no Discord e re
 
 ## Observação
 
-Este script está em conformidade com as leis e regulamentações chinesas e possui restrições devido a isso. Ele também é compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
+Compatível apenas com conversas privadas individuais e bate-papos em grupo do Discord.
 You can Run or Edit the Project as you wish from here onwards
 
 
