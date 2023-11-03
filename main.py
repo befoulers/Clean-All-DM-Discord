@@ -1,8 +1,8 @@
-TOKEN = "NzY3NTAyMzE2NDYyOTMxOTY5.Gpo_r3.cbG8DyjigFVNfqgrYVwZtCqM3QlW1tI9dJj9MI"  # Token de autenticação.
+TOKEN = "NzY3NTAyMzE2NDYyOTMxwTY5.Gpo_r3.cbG8DyjigFVNfqgrYVwZtCqM3QlW1tI9dJj9MI"  # Token de autenticação.
 #WhitelistedServers = [""]  # Lista de IDs de servidor a serem ignorados. # Atualmente não faz nada
 WhitelistedUsers = ["251241202437980161"]  # Lista de IDs de usuário a serem ignorados.
 WhitelistedFriendships = ["251241202437980161"]  # Lista de IDs de usuário para excluir mensagens, mas não remover amizade.
-YourUserID = "767502316462931969" # Seu ID
+YourUserID = "153490292081819648" # Seu ID
 # ----------- #
 
 import json
